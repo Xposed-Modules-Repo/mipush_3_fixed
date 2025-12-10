@@ -1,0 +1,26 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.n8.xmsflogbypass">
+
+    <application
+        android:label="XMSpush Log Bypass"
+        android:icon="@mipmap/ic_launcher">
+
+        <!-- 声明这是 Xposed 模块 -->
+        <meta-data
+            android:name="xposedmodule"
+            android:value="true" />
+
+        <!-- 模块描述，可选 -->
+        <meta-data
+            android:name="xposeddescription"
+            android:value="error fucker" />
+
+        <!-- Xposed 最低版本 -->
+        <meta-data
+            android:name="xposedminversion"
+            android:value="82" />
+        <meta-data
+            android:name="xposedscope"
+            android:value="com.xiaomi.xmsf" />
+    </application>
+</manifest>
